@@ -1,0 +1,33 @@
+{
+  "resources/js/Pages/Home.jsx": {
+    "file": "assets/Home-DObYODYm.js",
+    "name": "Home",
+    "src": "resources/js/Pages/Home.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/Pages/PhoneRecord.jsx": {
+    "file": "assets/PhoneRecord-btoQrBC2.js",
+    "name": "PhoneRecord",
+    "src": "resources/js/Pages/PhoneRecord.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/app.jsx": {
+    "file": "assets/app-Cv6QHcjT.js",
+    "name": "app",
+    "src": "resources/js/app.jsx",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/Pages/Home.jsx",
+      "resources/js/Pages/PhoneRecord.jsx"
+    ],
+    "css": [
+      "assets/app-qAubJRBw.css"
+    ]
+  }
+}

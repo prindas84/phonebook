@@ -1,0 +1,106 @@
+h1 {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #000000 !important;
+    font-size: 38px;
+}
+
+.montserrat-heading {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #4d4d4d !important;
+    font-size: 16px;
+}
+
+th {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.montserrat-text, td, input, .alert-danger, .alert-success, .pagination .page-link {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #454f59 !important;
+    font-size: 14px;
+}
+
+.btn {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+/* Pagination layout + styling */
+.pagination-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination {
+    display: flex;
+    gap: 6px;
+    padding-left: 0;
+    list-style: none;
+}
+
+.pagination .page-item {
+    list-style: none;
+}
+
+.pagination .page-link {
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+.pagination .page-link:hover {
+    background-color: #f2f4f7;
+    border-color: #454f59;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #495057;
+    color: #ffffff !important;
+    border-color: #495057;
+}
+
+.pagination .page-item.disabled .page-link {
+    color: #aaa !important;
+    background-color: #f8f9fa;
+    border-color: #ddd;
+    pointer-events: none;
+}
+
+.page-link:focus,
+.page-link:active {
+    outline: none;
+    box-shadow: none !important;
+    color: inherit !important;
+}
+
+@media (max-width: 576px) {
+    .pagination {
+        gap: 5px;
+    }
+
+    .pagination .page-link {
+        padding: 4px 8px;
+        font-size: 16px;
+        border-radius: 4px;
+    }
+}
